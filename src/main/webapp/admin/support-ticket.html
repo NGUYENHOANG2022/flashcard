@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="../assets/css/admin-supportticket.css">
+
+    <title>ADMIN version</title>
+</head>
+
+<body>
+
+
+    <!-- SIDEBAR -->
+    <section id="sidebar">
+        <a href="#" class="brand">
+            <i class='bx bxs-smile'></i>
+            <span class="text">Welcome to Admin version</span>
+        </a>
+        <ul class="side-menu top">
+            <li class="active">
+                <a href="#">
+                    <i class='bx bxs-dashboard'></i>
+                    <span class="text">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-contact'></i>
+                    <span class="text">Contanctus</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-doughnut-chart'></i>
+                    <span class="text">Analytics</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-message-dots'></i>
+                    <span class="text">Message</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-group'></i>
+                    <span class="text">Team</span>
+                </a>
+            </li>
+        </ul>
+        <ul class="side-menu">
+            <li>
+                <a href="#">
+                    <i class='bx bxs-cog'></i>
+                    <span class="text">Settings</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="logout">
+                    <i class='bx bxs-log-out-circle'></i>
+                    <span class="text">Logout</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <!-- SIDEBAR -->
+
+
+
+    <!-- CONTENT -->
+    <section id="content">
+        <!-- NAVBAR -->
+        <nav>
+            <i class='bx bx-menu'></i>
+            <a href="#" class="nav-link">Categories</a>
+            <form action="#">
+                <div class="form-input">
+                    <input type="search" placeholder="Search...">
+                    <button type="submit" class="search-btn"><i class='bx bx-search'></i></button>
+                </div>
+            </form>
+            <input type="checkbox" id="switch-mode" hidden>
+            <label for="switch-mode" class="switch-mode"></label>
+            <a href="#" class="notification">
+                <i class='bx bxs-bell'></i>
+                <span class="num">8</span>
+            </a>
+            <a href="#" class="profile">
+                <img src="img/people.png">
+            </a>
+        </nav>
+        <!-- NAVBAR -->
+
+        <!-- MAIN -->
+        <main>
+            <div class="head-title">
+                <div class="left">
+                    <h1>Contact Us</h1>
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <li><i class='bx bx-chevron-right'></i></li>
+                        <li>
+                            <a class="active" href="#">Home</a>
+                        </li>
+                    </ul>
+                    <hr>
+                    <div class="container">
+                        <div class="header">
+                            <h1 id="Frist-heading">USERS </h1>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>SUPPORT TICKETS</th>
+
+
+                                    </tr>
+                                </thead>
+                                <tbody broder="1">
+                                    <tr>
+
+                                        <td>
+                                            <div>
+                                                John Doe
+                                                <li><i class='bx bx-user-circle'></i></li>
+                                            </div>
+                                        </td>
+
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div>
+                                                kanny sang
+                                                <li><i class='bx bx-user-circle'></i></li>
+                                            </div>
+                                        </td>
+
+
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div>
+                                                donny
+                                                <li><i class='bx bx-user-circle'></i></li>
+                                            </div>
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div>
+                                                USER12345
+                                                <li><i class='bx bx-user-circle'></i></li>
+                                            </div>
+                                        </td>
+
+                                    <tr>
+                                        <td>
+                                            <div>
+                                                JAWVEY
+                                                <li><i class='bx bx-user-circle'></i></li>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <body id="box">
+                    <div class="chat-box">
+                        <div class="chat-log"></div>
+                        <div class="chat-input">
+                            <input type="text" id="message-input">
+                            <button id="send-btn">Send</button>     
+                        </div>
+                    </div>
+
+                </body>
+
+        </main>
+
+
+    </section>
+    <script src="../assets/js/support-ticket.js"></script>
+</body>
+<footer>
+
+</footer>
+
+</html>
